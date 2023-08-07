@@ -25,6 +25,11 @@ function Navbar({ setIsLoggedIn }) {
         /* set exact so it knows to only set activeStyle when route is deeply equal to link */
         exact
         /* add styling to Navlink */
+style={linkStyles}
+        activeStyle={{
+          background: "darkblue",
+        }}
+
         style={linkStyles}
         /* add prop for activeStyle */
         activeStyle={{
